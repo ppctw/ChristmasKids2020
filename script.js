@@ -1,21 +1,21 @@
-﻿ 
- 
- 
-  
- 
+﻿
+
+
+
+
 // All Employees
 let allEmpBtn = document.querySelector('#all-emp-btn');
-allEmpBtn.addEventListener('click',function() {
+allEmpBtn.addEventListener('click', function () {
     displayEmployees(employees);
 
 });
 
 let searchBox = document.querySelector('#search-box');
 let resultsDiv = document.querySelector('#results');
-let selectValue = document.getElementById("searchBy").value;
-let searchEmpBtn = document.querySelector('#search-btn');
+ let searchEmpBtn = document.querySelector('#search-btn');
 searchEmpBtn.addEventListener('click', function () {
- 
+    let selectValue = document.getElementById("searchBy").value;
+
     if (selectValue == "searchByName") {
         let textEntered = searchBox.value;
 
@@ -51,6 +51,8 @@ searchEmpBtn.addEventListener('click', function () {
 
 });
 
+
+ 
 // Employee Search
 //let searchBox = document.querySelector('#search-box');
 //let resultsDiv = document.querySelector('#results');
@@ -60,9 +62,9 @@ searchEmpBtn.addEventListener('click', function () {
 //    console.log("employees", employees);
 //    if (selectValue == "searchByName") {
 //        let textEntered = searchBox.value;
-     
+
 //        if (textEntered.length > 0) {
-        
+
 //            let targetEmployees = employees.filter((employee) => {
 //                return employee.name.toUpperCase().startsWith(textEntered.toUpperCase());
 //            });
@@ -98,7 +100,7 @@ let displayEmployees = (employees) => {
     let tableBody = document.querySelector('#table_body');
     let tableRow = '';
     console.log("employees", employees);
-    for(let employee of employees){
+    for (let employee of employees) {
         tableRow += `<tr>
                         <td>${employee.id}</td>                         
                          <td>${employee.eName}</td>                      
@@ -107,7 +109,7 @@ let displayEmployees = (employees) => {
                         <td>${employee.eParent}</td>                     
                     </tr>`;
     }
- 
+
     tableBody.innerHTML = tableRow;
 };
 

@@ -9,6 +9,7 @@
 
 <body>
     <section>
+        <h1>兒童聖誕午會入選名單查詢</h1>
         <button id="all-emp-btn">所有名單</button>
         <button id="search-btn">搜尋</button>
         <form>
@@ -16,13 +17,13 @@
                 <option value="searchByName">兒童姓名</option>
                 <option value="searchByParent">家長姓名</option>
             </select>
-            <input type="search" placeholder="請輸入姓名" id="search-box">
-
+            <input type="search" placeholder="請輸入姓名" id="search-box"><br />
+            <label style="color:red">※若有報名成功，但查詢不到資料，請至【思麥特基地Smart Kids】或【夢夢基地Dream Kids】ㄕ粉絲專頁私訊小編！</label>
             <div id="results">
             </div>
         </form>
     </section>
-    
+
     <table>
         <thead>
             <tr>
@@ -35,6 +36,6 @@
         </thead>
         <tbody id="table_body"></tbody>
     </table>
-    <script src="script.js"></script>  
+    <script src="script.js"></script>
 </body>
 </html>

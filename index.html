@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2020兒童聖誕午會</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <section>
+        <button id="all-emp-btn">所有名單</button>
+        <button id="search-btn">搜尋</button>
+        <form>
+            <select class="form-control" id="searchBy" style=" font-size: 18px; height: 45px !important;">
+                <option value="searchByName">兒童姓名</option>
+                <option value="searchByParent">家長姓名</option>
+            </select>
+            <input type="search" placeholder="請輸入姓名" id="search-box">
+
+            <div id="results">
+            </div>
+        </form>
+    </section>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>序號</th>
+                <th>兒童姓名</th>
+                <th>年級</th>
+                <th>學校</th>
+                <th>家長姓名</th>
+            </tr>
+        </thead>
+        <tbody id="table_body"></tbody>
+    </table>
+    <script src="script.js"></script>  
+</body>
+</html>

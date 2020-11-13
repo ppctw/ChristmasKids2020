@@ -1831,7 +1831,7 @@
     "name": "吳亞恩",
     "eName": "吳○恩",
     "grade": "二年級",
-    "school": "好",
+    "school": "",
     "parent": "鍾靜玲",
     "eParent": "鍾○玲"
   },
@@ -2245,7 +2245,7 @@
     "name": "陳廷峻",
     "eName": "陳○峻",
     "grade": "二年級",
-    "school": "沒有相同",
+    "school": "",
     "parent": "王琴",
     "eParent": "王○"
   },
@@ -2300,8 +2300,8 @@
     "eName": "陳○菲",
     "grade": "大班",
     "school": "鶴聲國小",
-    "parent": "陳家慧 \n 陳志坤",
-    "eParent": "陳○慧 \n 陳○坤"
+    "parent": "陳家慧",
+    "eParent": "陳○慧"
   },
   {
     "id": 257,

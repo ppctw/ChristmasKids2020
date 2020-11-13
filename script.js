@@ -328,7 +328,7 @@ var employees =
     { "id": 201, "name": "陳孟君", "eName": "陳○君", "grade": "大班", "school": "培華幼稚園", "parent": "林潔櫻", "eParent": "林○櫻" },
     { "id": 202, "name": "曾亞伯", "eName": "曾○伯", "grade": "三年級", "school": "仁愛國小", "parent": "邱郁雯", "eParent": "邱○雯" },
     { "id": 203, "name": "曾亞撒", "eName": "曾○撒", "grade": "中班", "school": "瑞光國小幼兒園", "parent": "邱郁雯", "eParent": "邱○雯" },
-    { "id": 204, "name": "吳亞恩", "eName": "吳○恩", "grade": "二年級", "school": "好", "parent": "鍾靜玲", "eParent": "鍾○玲" },
+    { "id": 204, "name": "吳亞恩", "eName": "吳○恩", "grade": "二年級", "school": "", "parent": "鍾靜玲", "eParent": "鍾○玲" },
     { "id": 205, "name": "石禾睿", "eName": "石○睿", "grade": "大班", "school": "慈育幼兒園", "parent": "盧宣穎", "eParent": "盧○穎" },
     { "id": 206, "name": "陳怡潔", "eName": "陳○潔", "grade": "一年級", "school": "仁愛國小", "parent": "謝佩娟", "eParent": "謝○娟" },
     { "id": 207, "name": "楊絜茵", "eName": "楊○茵", "grade": "一年級", "school": "過埤國小", "parent": "胡玉霜", "eParent": "胡○霜" },
@@ -374,13 +374,13 @@ var employees =
     { "id": 247, "name": "劉書妍", "eName": "劉○妍", "grade": "五年級", "school": "仁愛國小", "parent": "蔡盈翎", "eParent": "蔡○翎" },
     { "id": 248, "name": "劉紹宸", "eName": "劉○宸", "grade": "二年級", "school": "仁愛國小", "parent": "蔡盈翎", "eParent": "蔡○翎" },
     { "id": 249, "name": "謝宗廷", "eName": "謝○廷", "grade": "四年級", "school": "建國國小", "parent": "朱珍慧", "eParent": "朱○慧" },
-    { "id": 250, "name": "陳廷峻", "eName": "陳○峻", "grade": "二年級", "school": "沒有相同", "parent": "王琴", "eParent": "王○" },
+    { "id": 250, "name": "陳廷峻", "eName": "陳○峻", "grade": "二年級", "school": "", "parent": "王琴", "eParent": "王○" },
     { "id": 251, "name": "邱亮瑜", "eName": "邱○瑜", "grade": "大班", "school": "豐田國小附幼", "parent": "李秀芳", "eParent": "李○芳" },
     { "id": 252, "name": "邱子宸", "eName": "邱○宸", "grade": "三年級", "school": "豐田國小", "parent": "李秀芳", "eParent": "李○芳" },
     { "id": 253, "name": "張詒絜", "eName": "張○絜", "grade": "小班", "school": "道明幼兒園", "parent": "潘冠宇", "eParent": "潘○宇" },
     { "id": 254, "name": "蘇姿予", "eName": "蘇○予", "grade": "一年級", "school": "", "parent": "謝宛瑾", "eParent": "謝○瑾" },
     { "id": 255, "name": "蘇姿安", "eName": "蘇○安", "grade": "一年級", "school": "", "parent": "謝宛瑾", "eParent": "謝○瑾" },
-    { "id": 256, "name": "陳乙菲", "eName": "陳○菲", "grade": "大班", "school": "鶴聲國小", "parent": "陳家慧 \n 陳志坤", "eParent": "陳○慧 \n 陳○坤" },
+    { "id": 256, "name": "陳乙菲", "eName": "陳○菲", "grade": "大班", "school": "鶴聲國小", "parent": "陳家慧", "eParent": "陳○慧" },
     { "id": 257, "name": "徐永宸", "eName": "徐○宸", "grade": "中班", "school": "歸來幼兒園", "parent": "謝蕓梃", "eParent": "謝○梃" },
     { "id": 258, "name": "韓婷羽", "eName": "韓○羽", "grade": "二年級", "school": "玉田國小", "parent": "鄭椀馨", "eParent": "鄭○馨" },
     { "id": 259, "name": "陳宇芮", "eName": "陳○芮", "grade": "一年級", "school": "高雄 右昌國小", "parent": "安孝梅", "eParent": "安○梅" },
@@ -424,7 +424,7 @@ var employees =
     { "id": 297, "name": "王筠喬", "eName": "王○喬", "grade": "小班", "school": "中山幼兒園", "parent": "林奕婷", "eParent": "林○婷" },
     { "id": 298, "name": "黃政諺", "eName": "黃○諺", "grade": "二年級", "school": "復興國小", "parent": "黃意茹", "eParent": "黃○茹" },
     { "id": 299, "name": "黃子薫", "eName": "黃○薫", "grade": "大班", "school": "佳佳幼兒園", "parent": "黃意茹", "eParent": "黃○茹" },
-        { "id": 300, "name": "王崇恩", "eName": "王○恩", "grade": "中班", "school": " 私立中山幼兒園", "parent": "陳慧雯", "eParent": "陳○雯" }];
+    { "id": 300, "name": "王崇恩", "eName": "王○恩", "grade": "中班", "school": " 私立中山幼兒園", "parent": "陳慧雯", "eParent": "陳○雯" }];
 
 
 function myFunction() {

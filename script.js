@@ -47,8 +47,22 @@ searchEmpBtn.addEventListener('click', function () {
 
 });
 
+ //backButton
+let BackTopBtn = document.querySelector('#backTop');
+BackTopBtn.addEventListener('click', function () {
+    topFunction();
+
+});
+
+//window.onscroll = scrollFunction; //每當畫面捲動觸發一次
 
  
+
+// 重置scrollTop這個變數的值
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 // Employee Search
 //let searchBox = document.querySelector('#search-box');
 //let resultsDiv = document.querySelector('#results');

@@ -10,24 +10,26 @@
 <body>
     <section>
         <h1>兒童聖誕午會入選名單查詢</h1>
-
-        <select class="form-control" id="searchBy" style=" font-size: 18px; height: 45px !important;">
-            <option value="searchByParent">家長姓名</option>
-            <option value="searchByName">兒童姓名</option>
-
-        </select>
-        <input type="search" placeholder="請輸入姓名" id="search-box">   <button id="search-btn">搜尋</button><br /><br />
-        <button id="all-emp-btn" style="DISPLAY:none">所有名單</button>
-
+      
+            <select class="form-control" id="searchBy" style=" font-size: 18px; height: 45px !important;display:inline">
+                <option value="searchByParent">家長姓名</option>
+                <option value="searchByName">兒童姓名</option>
+            </select>
+            <input type="search" placeholder="請輸入姓名" id="search-box">   <button id="search-btn" style="display:inline">查詢</button><br />
+   
+        <button id="all-emp-btn" >所有名單</button>
         <form>
-
 
             <label style="color:red">※若有報名成功，但查詢不到資料，請至【思麥特基地Smart Kids】或【夢夢基地Dream Kids】粉絲專頁私訊小編！</label>
             <div id="results">
             </div>
         </form>
     </section>
-
+    <div>
+        <div class="r" style="text-align:right">
+          <button  id="backTop"  style=" background: rgba(129,199,212,0.5);font-family:超研澤特圓;" >▲Top</button>
+        </div>
+    </div>
     <table>
         <thead>
             <tr>
@@ -40,6 +42,17 @@
         </thead>
         <tbody id="table_body"></tbody>
     </table>
+    <!--<footer style="text-align:center;"><button type="button" id="backTop" class="toTop-arrow">回到頂端</button></footer>-->
     <script src="script.js"></script>
+    <style>
+        .r {
+            bottom: 0;
+            margin-bottom: 30%;
+            z-index: 9999;
+            position: fixed !important;
+            right: 1%;
+            
+        }
+    </style>
 </body>
 </html>

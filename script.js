@@ -1,15 +1,11 @@
 ﻿
-
-
-
-
 // All Employees
 let allEmpBtn = document.querySelector('#all-emp-btn');
 allEmpBtn.addEventListener('click', function () {
     displayEmployees(employees);
 
 });
-
+ 
 let searchBox = document.querySelector('#search-box');
 let resultsDiv = document.querySelector('#results');
  let searchEmpBtn = document.querySelector('#search-btn');
@@ -113,6 +109,7 @@ let displayEmployees = (employees) => {
     tableBody.innerHTML = tableRow;
 };
 
+ 
 var employees =
     [{ "id": 1, "name": "吳晙綸", "eName": "吳○綸", "grade": "二年級", "school": "崇華國小", "parent": "李靜宜", "eParent": "李○宜" },
     { "id": 2, "name": "吳宣霈", "eName": "吳○霈", "grade": "小班", "school": "正修幼兒園", "parent": "李靜宜", "eParent": "李○宜" },
@@ -413,4 +410,10 @@ var employees =
     { "id": 297, "name": "王筠喬", "eName": "王○喬", "grade": "小班", "school": "中山幼兒園", "parent": "林奕婷", "eParent": "林○婷" },
     { "id": 298, "name": "黃政諺", "eName": "黃○諺", "grade": "二年級", "school": "復興國小", "parent": "黃意茹", "eParent": "黃○茹" },
     { "id": 299, "name": "黃子薫", "eName": "黃○薫", "grade": "大班", "school": "佳佳幼兒園", "parent": "黃意茹", "eParent": "黃○茹" },
-    { "id": 300, "name": "王崇恩", "eName": "王○恩", "grade": "中班", "school": " 私立中山幼兒園", "parent": "陳慧雯", "eParent": "陳○雯" }];
+        { "id": 300, "name": "王崇恩", "eName": "王○恩", "grade": "中班", "school": " 私立中山幼兒園", "parent": "陳慧雯", "eParent": "陳○雯" }];
+
+
+function myFunction() {
+    displayEmployees(employees);
+}
+myFunction();

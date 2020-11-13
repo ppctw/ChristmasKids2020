@@ -10,16 +10,15 @@
 <body>
     <section>
         <h1>兒童聖誕午會入選名單查詢</h1>
-      
-            <select class="form-control" id="searchBy" style=" font-size: 18px; height: 45px !important;display:inline">
-                <option value="searchByParent">家長姓名</option>
-                <option value="searchByName">兒童姓名</option>
-            </select>
-            <input type="search" placeholder="請輸入姓名" id="search-box">   <button id="search-btn" style="display:inline">查詢</button><br />
-   
-        <button id="all-emp-btn" >所有名單</button>
-        <form>
 
+        <select class="form-control" id="searchBy" style=" font-size: 18px; height: 45px !important;display:inline">
+            <option value="searchByName">兒童姓名</option>
+            <option value="searchByParent">家長姓名</option>
+        </select>
+        <input type="search" placeholder="請輸入姓名" id="search-box">   <button id="search-btn" style="display:inline">查詢</button><br />
+        <label>     ※操作說明：若查詢<label style="color:blue">兒童姓名</label>，則顯示<label style="color:deeppink">單筆兒童資料</label>；查詢<label style="color:blue">家長姓名</label>，可顯示<label style="color:deeppink">多筆同一戶兒童資料</label></label><br />
+        <button id="all-emp-btn">所有名單</button>
+        <form>
             <label style="color:red">※若有報名成功，但查詢不到資料，請至【思麥特基地Smart Kids】或【夢夢基地Dream Kids】粉絲專頁私訊小編！</label>
             <div id="results">
             </div>
@@ -27,7 +26,8 @@
     </section>
     <div>
         <div class="r" style="text-align:right">
-          <button  id="backTop"  style=" background: rgba(129,199,212,0.5);font-family:超研澤特圓;" >▲Top</button>
+            <button id="backTop" style=" background: rgba(0,92,175,0.5);font-family:超研澤特圓;color:white">回到頂端</button>
+
         </div>
     </div>
     <table>
@@ -47,11 +47,9 @@
     <style>
         .r {
             bottom: 0;
-            margin-bottom: 30%;
-            z-index: 9999;
+            margin-bottom: 3%;
             position: fixed !important;
-            right: 1%;
-            
+            right: 1.5%;
         }
     </style>
 </body>
